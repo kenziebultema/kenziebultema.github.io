@@ -1,0 +1,137 @@
+body {
+	background: #000000;
+	background-image: url("http://i.imgur.com/cB4dnk8.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#header {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	background-color: #4377b1;
+	padding: 5px 5px 5px 5px;
+	letter-spacing: 2px;
+	line-height: 28px;
+	color: white;
+	width: 850px;
+	height: 30px;
+	text-align: center;
+	margin-left: 150px;
+	margin-top: 75px;
+	border-radius: 5px 5px 0px 0px;
+	opacity: 0.75;
+}
+.textbox {
+	height: 500px;
+	width: 850px;
+	margin-left: 150px;
+	padding: 5px 5px 5px 5px;
+	background: white;
+	overflow: hidden;
+	opacity: 50%;
+	font-size: 14px;
+	opacity: 0.8;
+}
+#box {
+	height: 500px;
+	padding: 5px 5px 5px 5px;
+	overflow: auto;
+}
+#navigation {
+	margin-left: 230px;
+	margin-top: 45px;
+	height: 50px;
+}
+a.nav:link, a.nav:visited, a.nav:active {
+	background-color: #6391c4;
+	font-size: 20px;
+	line-height: 38px;
+	font-family: monospace;
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	margin: 5px 5px 5px 5px;
+	font-weight: bold;
+	height: 40px;
+	color: white;
+	overflow: hidden;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px 5px 5px 5px;
+	opacity: 0.75;
+}
+a.nav:hover {
+	background-color: #6e9dd2;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #4377b1;
+}
+a:hover {
+	text-decoration: underline;
+}
+#footer {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	background-color: #5184bd;
+	padding: 5px;
+	letter-spacing: 2px;
+	line-height: 28px;
+	color: white;
+	width: 850px;
+	height: 30px;
+	text-align: center;
+	margin-left: 150px;
+	border-radius: 0px 0px 5px 5px;
+	opacity: 0.75;
+}
+h1 {
+    background: #4377b1;
+    padding: 5px 5px 5px 5px;
+    font-family: monospace;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+h2, h3 {
+	background: #4377b1;
+	padding: 5px 5px 5px 10px;
+	font-family: monospace;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+p {
+	font-family: Lucida, sans-serif;
+	text-indent: 15px;
+
+}
+.column1 {
+    float: left;
+    margin: 0px 30px 20px 50px;
+    font-size: 16px;
+    text-align: center;
+}
+.column2 {
+    float: left;
+    margin-top: -15px;
+    width: 535px;
+    font-size: 14px;
+}
+.clear {
+    clear: both;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: oblique;
+}
+.credit {
+    text-align: center;
+}
+li {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: sans-serif;
+}
