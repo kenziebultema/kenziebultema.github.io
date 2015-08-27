@@ -3,6 +3,7 @@ body {
 	background-image: url("http://i.imgur.com/cB4dnk8.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	overflow: auto;
 }
 #header {
 	font-family: Georgia, serif;
@@ -15,15 +16,15 @@ body {
 	width: 850px;
 	height: 30px;
 	text-align: center;
-	margin-left: 150px;
-	margin-top: 75px;
+	margin-left: 50px;
+	margin-top: 35px;
 	border-radius: 5px 5px 0px 0px;
 	opacity: 0.75;
 }
 .textbox {
 	height: 500px;
 	width: 850px;
-	margin-left: 150px;
+	margin-left: 50px;
 	padding: 5px 5px 5px 5px;
 	background: white;
 	overflow: hidden;
@@ -37,8 +38,8 @@ body {
 	overflow: auto;
 }
 #navigation {
-	margin-left: 230px;
-	margin-top: 45px;
+	margin-left: 130px;
+	margin-top: 5px;
 	height: 50px;
 }
 a.nav:link, a.nav:visited, a.nav:active {
@@ -83,7 +84,7 @@ a:hover {
 	width: 850px;
 	height: 30px;
 	text-align: center;
-	margin-left: 150px;
+	margin-left: 50px;
 	border-radius: 0px 0px 5px 5px;
 	opacity: 0.75;
 }
