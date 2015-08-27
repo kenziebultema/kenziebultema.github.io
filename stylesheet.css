@@ -39,7 +39,7 @@ body {
 }
 #navigation {
 	margin-left: 130px;
-	margin-top: 5px;
+	margin-top: 25px;
 	height: 50px;
 }
 a.nav:link, a.nav:visited, a.nav:active {
