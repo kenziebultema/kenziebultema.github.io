@@ -21,7 +21,7 @@ header {
 	border-radius: 5px 5px 0px 0px;
 	opacity: 0.75;
 }
-.textbox {
+section {
 	height: 500px;
 	width: 850px;
 	margin-left: 50px;
@@ -32,7 +32,7 @@ header {
 	font-size: 14px;
 	opacity: 0.8;
 }
-section {
+article {
 	height: 500px;
 	padding: 5px 5px 5px 5px;
 	overflow: auto;
