@@ -5,7 +5,7 @@ body {
 	background-repeat: no-repeat;
 	overflow: auto;
 }
-#header {
+header {
 	font-family: Georgia, serif;
 	font-size: 24px;
 	background-color: #4377b1;
@@ -32,12 +32,12 @@ body {
 	font-size: 14px;
 	opacity: 0.8;
 }
-#box {
+section {
 	height: 500px;
 	padding: 5px 5px 5px 5px;
 	overflow: auto;
 }
-#navigation {
+nav {
 	margin-left: 130px;
 	margin-top: 45px;
 	height: 50px;
@@ -73,7 +73,7 @@ a:link, a:visited, a:active {
 a:hover {
 	text-decoration: underline;
 }
-#footer {
+footer {
 	font-family: Georgia, serif;
 	font-size: 24px;
 	background-color: #5184bd;
