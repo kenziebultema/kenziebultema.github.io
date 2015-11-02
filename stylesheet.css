@@ -97,7 +97,7 @@ h1 {
     color: white;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
 }
 h2, h3 {
 	background: #4377b1;
@@ -129,7 +129,7 @@ p {
 .column2 {
     float: left;
     margin-top: -15px;
-    margin-left: 300px;
+    margin-left: 350px;
     width: 535px;
     font-size: 14px;
 }
