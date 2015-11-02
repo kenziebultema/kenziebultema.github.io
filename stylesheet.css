@@ -97,6 +97,7 @@ h1 {
     color: white;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
+    font-size: 28px;
 }
 h2, h3 {
 	background: #4377b1;
@@ -112,6 +113,7 @@ h4 {
 	color: white;
 	border-radius: 5px 5px 5px 5px;
 	margin-left: 300px;
+	font-size: 20px;
 }
 p {
 	font-family: Lucida, sans-serif;
