@@ -1,14 +1,8 @@
 $(document).ready(function() {
-      $('body').on('mouseleave', function() {
-        $(this).find('header').hide();
-        $(this).find('section').hide();
-        $(this).find('footer').hide();
-        $(this).find('nav').hide();
-      });
-        $('body').on('mouseenter', function() {
-        $(this).find('header').hide();
-        $(this).find('section').hide();
-        $(this).find('footer').hide();
-        $(this).find('nav').hide();
+        $('.welcome').on('click', 'button', function() {
+        $('body').find('header').show();
+        $('body').find('section').show();
+        $('body').find('footer').show();
+        $('button').find('nav').show();
       });
 });

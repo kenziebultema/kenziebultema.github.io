@@ -1,17 +1,16 @@
 body {
-	background: #ffffff;
-	background-image: url("http://i.imgur.com/UCz5tXs.png");
+	background: #fff url("http://i.imgur.com/UCz5tXs.png") no-repeat;
 	background-size: 100%;
-	background-repeat: no-repeat;
 	overflow: auto;
 }
+header, section, footer, nav {
+  display: none;
+}
 header {
-	font-family: Georgia, serif;
-	font-size: 24px;
+	font: 24px/28px Georgia, serif;
 	background-color: #4377b1;
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
 	letter-spacing: 2px;
-	line-height: 28px;
 	color: white;
 	width: 850px;
 	height: 30px;
@@ -25,7 +24,7 @@ section {
 	height: 500px;
 	width: 850px;
 	margin-left: 50px;
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
 	background: white;
 	overflow: hidden;
 	opacity: 50%;
@@ -34,7 +33,7 @@ section {
 }
 article {
 	height: 500px;
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
 	overflow: auto;
 }
 nav {
@@ -43,21 +42,18 @@ nav {
 	height: 50px;
 }
 a.nav:link, a.nav:visited, a.nav:active {
-	background-color: #6391c4;
-	font-size: 20px;
-	line-height: 38px;
-	font-family: monospace;
+	font: bold 20px/38px monospace;
+  background-color: #6391c4;
 	display: inline-block;
 	text-align: center;
 	width: 150px;
-	margin: 5px 5px 5px 5px;
-	font-weight: bold;
+	margin: 5px;
 	height: 40px;
 	color: white;
 	overflow: hidden;
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
 	text-decoration: none;
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 5px;
 	opacity: 0.75;
 	background: radial-gradient(#4377b1, #6e9dd2);
 }
@@ -76,12 +72,10 @@ a:hover {
 	text-decoration: underline;
 }
 footer {
-	font-family: Georgia, serif;
-	font-size: 24px;
+	font: 24px/28px Georgia, serif;
 	background-color: #5184bd;
 	padding: 5px;
 	letter-spacing: 2px;
-	line-height: 28px;
 	color: white;
 	width: 850px;
 	height: 30px;
@@ -92,28 +86,26 @@ footer {
 }
 h1 {
     background: #4377b1;
-    padding: 5px 5px 5px 5px;
-    font-family: monospace;
+    padding: 5px;
+    font: 26px monospace;
     color: white;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 26px;
 }
 h2, h3 {
 	background: #4377b1;
 	padding: 5px 5px 5px 10px;
 	font-family: monospace;
 	color: white;
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 5px;
 }
 h4 {
 	background: #4377b1;
-	padding: 5px 5px 5px 5px;
-	font-family: monospace;
+	padding: 5px;
+	font: 20px monospace;
 	color: white;
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 5px;
 	margin-left: 300px;
-	font-size: 20px;
 }
 p {
 	font-family: Lucida, sans-serif;
@@ -135,17 +127,20 @@ p {
 }
 .clear {
     clear: both;
-    font-size: 18px;
-    font-family: Georgia, serif;
+    font: oblique 18px Georgia, serif;
     margin-left: 10px;
     margin-right: 10px;
-    font-style: oblique;
 }
 .credit {
     text-align: center;
 }
 li {
-	font-size: 16px;
-	line-height: 22px;
-	font-family: sans-serif;
+	font: 16px/22px sans-serif;
+}
+.welcome {
+  height: 20px;
+  width: 90px;
+  background-color: #4377b1;
+  font-color: white;
+  border-radius: 5px;
 }
