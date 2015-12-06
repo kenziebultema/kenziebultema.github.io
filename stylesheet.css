@@ -103,7 +103,7 @@ h2, h3 {
 h4 {
 	background: #4377b1;
 	padding: 5px;
-	font: 20px monospace;
+	font: 22px monospace;
 	color: white;
 	border-radius: 5px;
 	margin-left: 300px;
@@ -115,26 +115,27 @@ p {
 }
 .column1 {
     float: left;
-    margin: 0px 30px 20px 50px;
+    margin: 0px 30px 20px 40px;
     font-size: 16px;
     text-align: center;
 }
 .column1 img {
-	border-radius: 5px;
+	border-radius: 50px;
 	box-shadow: 3px 3px 5px #595959;
 }
 .column2 {
     float: left;
-    margin-top: -15px;
-    margin-left: 350px;
-    width: 535px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .clear {
     clear: both;
     font: oblique 18px Georgia, serif;
     margin-left: 10px;
     margin-right: 10px;
+}
+.clear:first-line {
+  font: oblique 20px monospace;
+  color: #4377b1;
 }
 .credit {
     text-align: center;
@@ -156,7 +157,7 @@ button:hover {
   border: 1px solid;
   border-radius: 5px;
   background-color: white;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .art button {
   position: relative;
@@ -168,7 +169,7 @@ button:hover {
   background-color: white;
   height: 50px;
   width: 300px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .done button {
   display: none;
@@ -182,5 +183,5 @@ button:hover {
   border: 1px solid;
   border-radius: 5px;
   background-color: white;
-  opacity: 0.6;
+  opacity: 0.7;
 }
