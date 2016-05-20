@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('body').find('footer').show();
     $('body').find('nav').show();
     $(this).hide();
-    $('.art').find('button').show();
+    $('.art').show();
   });
   $('.art').on('click', function() {
     $('body').find('header').hide();
@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('body').find('footer').hide();
     $('body').find('nav').hide();
     $(this).hide();
-    $('.done').find('button').show();
+    $('.done').show();
   });
   $('.done').on('click', function() {
     $('body').find('header').show();
@@ -21,6 +21,6 @@ $(document).ready(function() {
     $('body').find('footer').show();
     $('body').find('nav').show();
     $(this).hide();
-    $('.art').find('button').show();
+    $('.art').show();
   });
 });
