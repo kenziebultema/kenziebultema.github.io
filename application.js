@@ -12,7 +12,7 @@ function showResume(){
     $('body').find('nav').show();
     $(this).hide();
     $('.art').find('button').show();
-  };
+};
 
 function hideResume(){
     $('body').find('header').hide();
@@ -21,4 +21,4 @@ function hideResume(){
     $('body').find('nav').hide();
     $(this).hide();
     $('.done').find('button').show();
-  });
+};
