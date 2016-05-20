@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.welcome').on('click', 'button', function() {
+  $('.welcome').on('click', function() {
     $('body').find('header').show();
     $('body').find('section').show();
     $('body').find('footer').show();
@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(this).hide();
     $('.art').find('button').show();
   });
-  $('.art').on('click', 'button', function() {
+  $('.art').on('click', function() {
     $('body').find('header').hide();
     $('body').find('section').hide();
     $('body').find('footer').hide();
@@ -15,7 +15,7 @@ $(document).ready(function() {
     $(this).hide();
     $('.done').find('button').show();
   });
-  $('.done').on('click', 'button', function() {
+  $('.done').on('click', function() {
     $('body').find('header').show();
     $('body').find('section').show();
     $('body').find('footer').show();
