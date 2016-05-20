@@ -56,7 +56,7 @@ nav {
 }
 a.nav:link, a.nav:visited, a.nav:active {
 	font: bold 20px/38px monospace;
-  background-color: #6391c4;
+  	background-color: #6391c4;
 	display: inline-block;
 	text-align: center;
 	width: 150px;
@@ -139,6 +139,9 @@ p {
 }
 .credit {
     text-align: center;
+}
+.drop {
+	background-color: #6391c4;
 }
 li {
 	font: 16px/22px sans-serif;
