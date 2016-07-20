@@ -4,7 +4,7 @@ body {
 	overflow: auto;
 }
 header, section, footer, nav {
-  display: none;
+  /*display: none;*/
 }
 header {
 	font: 24px/28px Georgia, serif;
@@ -100,40 +100,29 @@ h2, h3 {
 	color: white;
 	border-radius: 5px;
 }
-h4 {
-	background: #4377b1;
-	padding: 5px;
-	font: 22px monospace;
-	color: white;
-	border-radius: 5px;
-	margin-left: 300px;
-}
 p {
 	font-family: Lucida, sans-serif;
 	text-indent: 15px;
 
 }
-.column1 {
+.column {
     float: left;
-    margin: 0px 30px 20px 40px;
+    /*margin: 0px 30px 20px 40px;*/
     font-size: 16px;
-    text-align: center;
+    /*text-align: center;*/
 }
-.column1 img {
-	border-radius: 50px;
-	box-shadow: 3px 3px 5px #595959;
-}
-.column2 {
-    float: left;
-    font-size: 18px;
+.clear-left {
+	clear: right;
 }
 .clear {
     clear: both;
-    font: oblique 18px Georgia, serif;
+}
+.bio {
+	font: oblique 18px Georgia, serif;
     margin-left: 10px;
     margin-right: 10px;
 }
-.clear:first-line {
+.bio:first-line {
   font: oblique 20px monospace;
   color: #4377b1;
 }
@@ -184,4 +173,10 @@ button:hover {
   border-radius: 5px;
   background-color: white;
   opacity: 0.7;
+}
+.profile-pic {
+	height: 280px;
+	border-radius: 50px;
+	box-shadow: 3px 3px 5px #595959;
+	/*width: 255px;*/
 }

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    console.log('works');
   $('.welcome').on('click', 'button', function() {
     $('body').find('header').show();
     $('body').find('section').show();
