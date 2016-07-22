@@ -4,7 +4,11 @@ body {
 	overflow: auto;
 }
 header, section, footer, nav {
+<<<<<<< HEAD
   /*display: none;*/
+=======
+  display: none;
+>>>>>>> ae6285b03b13d9cd60045fa37b3edc7585f3b96f
 }
 header {
 	font: 24px/28px Georgia, serif;
@@ -56,7 +60,11 @@ nav {
 }
 a.nav:link, a.nav:visited, a.nav:active {
 	font: bold 20px/38px monospace;
+<<<<<<< HEAD
   background-color: #6391c4;
+=======
+  	background-color: #6391c4;
+>>>>>>> ae6285b03b13d9cd60045fa37b3edc7585f3b96f
 	display: inline-block;
 	text-align: center;
 	width: 150px;
@@ -100,6 +108,7 @@ h2, h3 {
 	color: white;
 	border-radius: 5px;
 }
+
 p {
 	font-family: Lucida, sans-serif;
 	text-indent: 15px;
@@ -123,6 +132,26 @@ p {
     margin-right: 10px;
 }
 .bio:first-line {
+    float: left;
+    margin: 0px 30px 20px 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.column1 img {
+	border-radius: 50px;
+	box-shadow: 3px 3px 5px #595959;
+}
+.column2 {
+    float: left;
+    font-size: 18px;
+}
+.clear {
+    clear: both;
+    font: oblique 18px Georgia, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.clear:first-line {
   font: oblique 20px monospace;
   color: #4377b1;
 }
