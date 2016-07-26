@@ -3,7 +3,7 @@ body {
 	background-size: 100%;
 	overflow: auto;
 }
-header, section, footer, nav {
+header, section, footer, .navi {
   /*display: none;*/
 }
 header {
@@ -50,7 +50,7 @@ footer {
 	border-radius: 0px 0px 5px 5px;
 	opacity: 0.75;
 }
-nav {
+.navi {
 	position: fixed;
 	margin-left: 150px;
 	margin-top: 5px;
@@ -111,8 +111,7 @@ p {
     clear: both;
 }
 .bio {
-	display: inline-block;
-	font: 18px Georgia, serif;
+	font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
 	float: left;
@@ -121,12 +120,9 @@ p {
 	font: oblique 20px/22px monospace;
 	color: #4377b1;
     margin: 0px 30px 20px 40px;
-    /*font-size: 16px;*/
     text-align: center;
 }
 .profile-pic {
-	display: inline-block;
-	align: left;
 	float: left;
 	height: 260px;
 	border-radius: 50px;
@@ -147,7 +143,7 @@ p {
     text-align: center;
 }
 li {
-	font: 16px/22px sans-serif;
+	font-family: sans-serif;
 }
 button:hover {
 	box-shadow: 2px 2px 2px #595959;
@@ -199,7 +195,7 @@ button:hover {
 	body {
 		background-image: none;
 	}
-	header, section, footer, nav {
+	header, section, footer, .navi {
 		width: 96%;
 		margin: 10px 10px 0;
 	}
@@ -209,7 +205,7 @@ button:hover {
 	footer {
 		margin-top: 0;
 	}
-	nav {
+	.navi {
 		text-align: center;
 	}
 	h2 {
