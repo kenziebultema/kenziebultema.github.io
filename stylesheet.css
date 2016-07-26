@@ -13,7 +13,7 @@ header {
 	letter-spacing: 2px;
 	color: white;
 	width: 850px;
-	height: 30px;
+	height: 40px;
 	text-align: center;
 	margin-left: 50px;
 	margin-top: 35px;
@@ -24,7 +24,7 @@ section {
 	height: 500px;
 	width: 850px;
 	margin-left: 50px;
-	padding: 5px;
+	/*padding: 5px;*/
 	background: white;
 	overflow: hidden;
 	opacity: 50%;
@@ -35,6 +35,7 @@ article {
 	height: 500px;
 	padding: 5px;
 	overflow: auto;
+	overflow-x: hidden;
 }
 footer {
 	font: 24px/28px Georgia, serif;
@@ -43,7 +44,7 @@ footer {
 	letter-spacing: 2px;
 	color: white;
 	width: 850px;
-	height: 30px;
+	/*height: 30px;*/
 	text-align: center;
 	margin-left: 50px;
 	border-radius: 0px 0px 5px 5px;
@@ -51,9 +52,9 @@ footer {
 }
 nav {
 	position: fixed;
-	margin-left: 130px;
-	margin-top: 45px;
-	height: 50px;
+	margin-left: 150px;
+	margin-top: 5px;
+	/*height: 50px;*/
 }
 a.nav:link, a.nav:visited, a.nav:active {
 	font: bold 20px/38px monospace;
@@ -62,7 +63,7 @@ a.nav:link, a.nav:visited, a.nav:active {
 	text-align: center;
 	width: 150px;
 	margin: 5px;
-	height: 40px;
+	/*height: 40px;*/
 	color: white;
 	overflow: hidden;
 	padding: 5px;
@@ -73,7 +74,7 @@ a.nav:link, a.nav:visited, a.nav:active {
 }
 a.nav:hover {
 	background-color: #6e9dd2;
-	font-size: 24px;
+	font-size: 22px;
 	letter-spacing: 2px;
 	text-decoration: none;
 	transform: skewX(-10deg);
@@ -86,56 +87,51 @@ a:link, a:visited, a:active {
 a:hover {
 	text-decoration: underline;
 }
-h1 {
+h2 {
     background: #4377b1;
+	/*margin-top: 0px;*/
     padding: 5px;
-    font: 26px monospace;
+    font-family: monospace;
     color: white;
     border-radius: 5px;
     text-align: center;
 }
-h2, h3 {
+h3, h4 {
 	background: #4377b1;
 	padding: 5px 5px 5px 10px;
 	font-family: monospace;
 	color: white;
 	border-radius: 5px;
 }
-
 p {
 	font-family: Lucida, sans-serif;
 	text-indent: 15px;
-
-}
-.column {
-    float: left;
-    /*margin: 0px 30px 20px 40px;*/
-    font-size: 14px;
-    /*text-align: center;*/
 }
 .clear {
     clear: both;
 }
 .bio {
-	font: oblique 18px Georgia, serif;
+	display: inline-block;
+	font: 18px Georgia, serif;
     margin-left: 10px;
     margin-right: 10px;
+	float: left;
 }
 .bio:first-line {
-    float: left;
-	font: normal 20px monospace;
+	font: oblique 20px/22px monospace;
 	color: #4377b1;
     margin: 0px 30px 20px 40px;
-    font-size: 16px;
+    /*font-size: 16px;*/
     text-align: center;
 }
-.column1 img {
+.profile-pic {
+	display: inline-block;
+	align: left;
+	float: left;
+	height: 260px;
 	border-radius: 50px;
 	box-shadow: 3px 3px 5px #595959;
-}
-.column2 {
-    float: left;
-    font-size: 18px;
+	margin-bottom: 10px;
 }
 .clear {
     clear: both;
@@ -195,8 +191,41 @@ button:hover {
   background-color: white;
   opacity: 0.7;
 }
-.profile-pic {
-	height: 280px;
-	border-radius: 50px;
-	box-shadow: 3px 3px 5px #595959;
+
+/* ------------------------  MOBILE RESPONSIVENESS  ----------------------*/
+
+/* ---- TABLET & BELOW ---- */
+@media only screen and (max-width: 800px){
+	body {
+		background-image: none;
+	}
+	header, section, footer, nav {
+		width: 96%;
+		margin: 10px 10px 0;
+	}
+	section {
+		margin: 0px 10px;
+	}
+	footer {
+		margin-top: 0;
+	}
+	nav {
+		text-align: center;
+	}
+	h2 {
+		margin-top: 3px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	body {
+		background-image: none;
+	}
+	.profile-pic {
+		width: 100%;
+		height: auto;
+	}
+	header {
+		font: 16px/18px serif;
+	}
 }
