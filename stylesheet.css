@@ -265,6 +265,7 @@ button:hover {
 	}
 	.navi {
 		margin-top: 1px;
+		display: inline-block;
 	}
 	a.nav:link {
 		font-size: 16px;
