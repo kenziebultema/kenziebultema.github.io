@@ -199,32 +199,26 @@ button:hover {
 /* ------------------------  MOBILE RESPONSIVENESS  ----------------------*/
 
 /* ---- TABLET & BELOW ---- */
-@media only screen and (max-width: 800px){
+@media (max-width: 800px){
 	body {
 		background-image: none;
 	}
 	.container {
 		margin: 0;
 		padding: 0;
+		width: 100%;
 	}
 	header {
 		margin: 0;
 		border-radius: 0;
 		width: 100%;
 		text-align: center;
-		/*position: relative;
-		top: 0;*/
-	}
-	.phone {
-		color: white;
 	}
 	section, footer, .navi {
 		width: 100%;
-		/*margin-top: 10px;*/
 	}
 	section, article {
-		height: 526px;
-		/*margin-top: 50px;*/
+		height: 938px;
 	}
 	footer {
 		display: none;
@@ -235,10 +229,13 @@ button:hover {
 		position: fixed;
 		bottom: 0;
 		background-color: #6391c4;
+		display: flex;
 	}
 	a.nav:link {
+		flex: 1;
 		width: auto;
 		margin: 0;
+		border-radius: 0;
 	}
 	a.nav:hover {
 		transform: none;
@@ -251,19 +248,14 @@ button:hover {
 	}
 }
 
-@media only screen and (max-width: 500px){
-	body {
-		background-image: none;
-	}
+/* ----------------- MOBILE ----------------- */
+@media (max-width: 500px){
 	.profile-pic {
 		width: 100%;
 		height: auto;
 	}
 	header {
 		font: 16px/18px serif;
-	}
-	section, article {
-		/*padding-bottom: 34px;*/
 	}
 	h2 {
 		font-size: 20px;
@@ -277,5 +269,47 @@ button:hover {
 	a.nav:link {
 		font-size: 16px;
 
+	}
+}
+
+/* ---- Nexus 6P ---- */
+@media (min-width: 435px){
+	section, article {
+		height: 679px;
+	}
+}
+
+/* ---- iPhone 6 Plus ---- */
+@media (min-width: 414px){
+	section, article {
+		height: 642px;
+	}
+}
+
+/* ---- Nexus 5X---- */
+@media (min-width: 411px){
+	section, article {
+		height: 676px;
+	}
+}
+
+/* ---- iPhone 6 ---- */
+@media (min-width: 375px){
+	section, article {
+		height: 573px;
+	}
+}
+
+/* ---- Galaxy S5 ---- */
+@media (min-width: 360px){
+	section, article {
+		height: 546px;
+	}
+}
+
+/* ---- iPhone 5 ---- */
+@media (min-width: 320px){
+	section, article {
+		height: 474px;
 	}
 }
