@@ -218,7 +218,7 @@ button:hover {
 		width: 100%;
 	}
 	section, article {
-		height: 938px;
+		height: auto;
 	}
 	footer {
 		display: none;
@@ -270,47 +270,5 @@ button:hover {
 	a.nav:link {
 		font-size: 16px;
 
-	}
-}
-
-/* ---- Nexus 6P ---- */
-@media (min-width: 435px){
-	section, article {
-		height: 679px;
-	}
-}
-
-/* ---- iPhone 6 Plus ---- */
-@media (min-width: 414px){
-	section, article {
-		height: 642px;
-	}
-}
-
-/* ---- Nexus 5X---- */
-@media (min-width: 411px){
-	section, article {
-		height: 676px;
-	}
-}
-
-/* ---- iPhone 6 ---- */
-@media (min-width: 375px){
-	section, article {
-		height: 573px;
-	}
-}
-
-/* ---- Galaxy S5 ---- */
-@media (min-width: 360px){
-	section, article {
-		height: 546px;
-	}
-}
-
-/* ---- iPhone 5 ---- */
-@media (min-width: 320px){
-	section, article {
-		height: 474px;
 	}
 }
