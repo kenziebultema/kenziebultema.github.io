@@ -5,6 +5,7 @@ body {
 }
 .container {
 	margin-left: 10px;
+	width: 60.9375%;
 }
 header, section, footer, .navi {
   /*display: none;*/
@@ -15,7 +16,7 @@ header {
 	padding: 5px;
 	letter-spacing: 2px;
 	color: white;
-	width: 850px;
+	/*width: 850px;*/
 	/*height: 40px;*/
 	text-align: center;
 	/*margin-left: 10px;*/
@@ -28,7 +29,7 @@ header {
 }
 section {
 	height: 500px;
-	width: 850px;
+	/*width: 850px;*/
 	/*margin-left: 10px;*/
 	/*padding: 5px;*/
 	background: white;
@@ -49,7 +50,7 @@ footer {
 	padding: 5px;
 	letter-spacing: 2px;
 	color: white;
-	width: 850px;
+	/*width: 850px;*/
 	/*height: 30px;*/
 	text-align: center;
 	/*margin-left: 10px;*/
@@ -57,19 +58,18 @@ footer {
 	opacity: 0.75;
 }
 .navi {
-	/*position: fixed;*/
-	margin-left: 100px;
-	/*margin-top: 5px;*/
-	/*height: 50px;*/
-	/*text-align: center;*/
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
 a.nav:link, a.nav:visited, a.nav:active {
 	font: bold 20px/38px monospace;
   	background-color: #6391c4;
 	display: inline-block;
 	text-align: center;
+	/*width: 150px;*/
 	width: 150px;
-	margin: 5px;
+	margin: 0.431034%;
 	/*height: 40px;*/
 	color: white;
 	overflow: hidden;
@@ -130,8 +130,11 @@ p {
     text-align: center;
 	float: left;
 }
+.pic-wrapper {
+	text-align: center;
+}
 .profile-pic {
-	float: left;
+	/*float: left;*/
 	height: 260px;
 	border-radius: 50px;
 	box-shadow: 3px 3px 5px #595959;
@@ -199,7 +202,9 @@ button:hover {
 /* ------------------------  MOBILE RESPONSIVENESS  ----------------------*/
 
 /* ---- TABLET & BELOW ---- */
-@media (max-width: 800px){
+
+
+@media (max-width: 1024px){
 	body {
 		background-image: none;
 	}
